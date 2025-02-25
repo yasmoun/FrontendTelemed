@@ -10,12 +10,9 @@
 }
 /* START: General styles */
 .max-width {
-  @apply max-w-[1440px] mx-auto;
+  @apply max-w-[1640px] mx-auto px-4 w-full h-full;
 }
 
-.padding-x {
-  @apply sm:px-16 px-6;
-}
 
 .padding-y {
   @apply py-4;
@@ -35,12 +32,14 @@
 /* END: General styles */
 
 /* START: Navbar styles */
+
 .navbar {
-  @apply bg-green-900;
+  @apply bg-green-custom ;
 }
 .navbar ul {
   @apply flex space-x-4;
 }
+
 .navbar button{
   @apply px-4 py-2 font-semibold;
 }
@@ -49,6 +48,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green-custom: #4D7452; 
+
 }
 
 @media (prefers-color-scheme: dark) {
